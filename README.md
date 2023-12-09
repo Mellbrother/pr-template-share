@@ -1,4 +1,4 @@
-# git subtree を用いた pr テンプレートの共通化
+# git subtree を用いた pr テンプレートの共通化（テスト）
 
 ## 概要
 
