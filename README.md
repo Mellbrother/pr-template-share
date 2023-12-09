@@ -20,7 +20,8 @@
 8. develop-repository でブランチを切り、差分を PUSH する
 9. github の画面で Compare & pull request、または New pull request を押す(次の画面の Create pull request は押下しない)
 10. クエリパラメーターに`?template=template1.md`を付与して Enter を押す
-11. Create pull request を押下する（テンプレが表示される）
+11. Create pull request を押下する
+12. テンプレが表示される（例：https://github.com/Mellbrother/pr-template-share/pull/5 ）
 
 ### クエリパラメータ追加を回避する（クエリパラメータを付与するのが面倒な人向け）
 
