@@ -3,6 +3,7 @@
 ## 概要
 
 複数のリポジトリで PR テンプレートを共有する方法記載しました
+
 ご興味のある方は試してみてください
 
 ## 手順
@@ -30,3 +31,4 @@
 
 - `git subtree add --prefix=.github/PULL_REQUEST_TEMPLATE template-share-repository main`実行時に、git の差分があると`fatal: working tree has modifications.  Cannot add.`というエラーが発生するので、commit/stash などでファイル差分をなくしておいてください
 - PULL_REQUEST_TEMPLATE フォルダと pull_request_template.md は共存できないため、pull_request_template.md は追加しないでください（追加するとクエリパラメータをつけてもファイルが優先されます）
+- template-shapre-repository　に対するPUSH権限が必要です（権限がないリポジトリを使用しようとしている場合は、一旦forkなどで自分のリポジトリに追加してください）
