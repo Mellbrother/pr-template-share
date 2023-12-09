@@ -1,4 +1,4 @@
-# サブツリーを用いた pr テンプレートの共通化
+# git subtree を用いた pr テンプレートの共通化
 
 ## 概要
 
@@ -31,4 +31,4 @@
 
 - `git subtree add --prefix=.github/PULL_REQUEST_TEMPLATE template-share-repository main`実行時に、git の差分があると`fatal: working tree has modifications.  Cannot add.`というエラーが発生するので、commit/stash などでファイル差分をなくしておいてください
 - PULL_REQUEST_TEMPLATE フォルダと pull_request_template.md は共存できないため、pull_request_template.md は追加しないでください（追加するとクエリパラメータをつけてもファイルが優先されます）
-- template-shapre-repository　に対するPUSH権限が必要です（権限がない場合は、リポジトリをforkして、そのリポジトリを利用してください）
+- template-shapre-repository 　に対する PUSH 権限が必要です（権限がない場合は、リポジトリを fork して、そのリポジトリを利用してください）
