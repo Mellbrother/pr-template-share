@@ -28,6 +28,8 @@
 1. chrome の拡張機能の[Requestly](https://chrome.google.com/webstore/detail/mdnleldcmiljblolnjhpnblkcekpdkpa)を入れる（リダイレクトできれば他のものでも良いです）
 2. `/https://github.com/[アカウント名]/([0-9a-zA-Z._/\-]+)/compare/([0-9a-zA-Z._/\-]+)/`を`https://github.com/[アカウント名]/$1/compare/$2?template=template1.md`にリダイレクトさせるように設定する（アカウント名は適宜変えてください）
 
+※ リダイレクトを特定のリポジトリのみ適用したいなどあれば、正規表現の値を調整してください
+
 ## 注意点
 
 - `git subtree add --prefix=.github/PULL_REQUEST_TEMPLATE template-share-repository main`実行時に、git の差分があると`fatal: working tree has modifications.  Cannot add.`というエラーが発生するので、commit/stash などでファイル差分をなくしておいてください
