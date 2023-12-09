@@ -1,3 +1,0 @@
-[submodule ".github/PULL_REQUEST_TEMPLATE"]
-	path = .github/PULL_REQUEST_TEMPLATE
-	url = git@github.com:daydule/PR-Template.git
