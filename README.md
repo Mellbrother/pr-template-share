@@ -18,8 +18,8 @@
 6. develop-repository で`git subtree add --prefix=.github/PULL_REQUEST_TEMPLATE template-share-repository main`を実行する
 7. develop-repository の.github/PULL_REQUEST_TEMPLATE に template1 があることを確認する
 8. develop-repository でブランチを切り、差分を PUSH する
-9. github の画面で Compare & pull request、または New pull request を押す(次の画面の Create pull request は押下しない)
-10. クエリパラメーターに`?template=template1.md`を付与して Enter を押す
+9. github の画面で Compare & pull request、または New pull request を押下する(次の画面の Create pull request は押下しない)
+10. URLにクエリパラメーター（`?template=template1.md`）を付与して Enter を押下する
 11. Create pull request を押下する
 12. テンプレが表示される（例：https://github.com/Mellbrother/pr-template-share/pull/5 ）
 
