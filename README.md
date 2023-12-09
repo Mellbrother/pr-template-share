@@ -2,13 +2,13 @@
 
 ## 概要
 
-複数のリポジトリで PR テンプレートを共有する方法記載しました
+複数のリポジトリで PRテンプレートを共有する方法記載しました
 
 ご興味のある方は試してみてください
 
 ## 手順
 
-### テンプレを開発環境に取り入れる
+### PRテンプレートを各リポジトリのPRに適用する方法
 
 1. PR のテンプレートを管理するリポジトリを作成する（template-share-repository と呼ぶ）
 2. 開発用の repository を作成する（develop-repository と呼ぶ）
@@ -23,7 +23,7 @@
 11. Create pull request を押下する
 12. テンプレが表示される（例：https://github.com/Mellbrother/pr-template-share/pull/5 ）
 
-### クエリパラメータ追加を回避する（クエリパラメータを付与するのが面倒な人向け）
+### クエリパラメータ追加を省略する方法（クエリパラメータを付与するのが面倒な人向け）
 
 1. chrome の拡張機能の[Requestly](https://chrome.google.com/webstore/detail/mdnleldcmiljblolnjhpnblkcekpdkpa)を入れる（リダイレクトできれば他のものでも良いです）
 2. `/https://github.com/[アカウント名]/([0-9a-zA-Z._/\-]+)/compare/([0-9a-zA-Z._/\-]+)/`を`https://github.com/[アカウント名]/$1/compare/$2?template=template1.md`にリダイレクトさせるように設定する（アカウント名は適宜変えてください）
